@@ -1,0 +1,123 @@
+@font-face{
+    font-family: poppins-semiBold;
+    src: url(./fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: poppins-Bold;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+    
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/rebecca-peterson-hall-aN-zGYlxiCI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+    
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: centers;
+    
+
+    
+}
+
+
+.navbar{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #17224D;
+    z-index: 4;
+    
+}
+
+.logo-section{
+    width: 10%;
+   
+}
+
+.logo-section h1{
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 10em;
+
+}
+
+.links-section{
+    width: 80%;
+    text-align: center;
+    margin-left: 20em;
+    
+    
+}
+
+.links-section a{
+    text-decoration: none;
+    padding: 14px 55px;
+    font-size: 1rem;
+    font-family: poppins-Bold;
+    color: #ffffff;
+}
+
+
+
+h2{
+
+    text-align: center;
+    font-family: poppins-Bold;
+    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.container h1{
+    text-align: center;
+    font-family: poppins-Bold;
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+button{
+    width: 415px;
+    height: 85px;
+    background-color: #17224D;
+    color: #ffffff;
+    font-family: poppins-Bold;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: none;
+    align-items: center;
+    margin-top: 2em;
+    cursor: pointer;
+    position: relative;
+
+}
+
+button img{
+    align-items: center;
+    text-align: center;
+    margin-left: 1em;
+    
+}
