@@ -34,9 +34,7 @@ body{
     flex-direction: column;
     align-items: center;
     align-content: centers;
-    
-
-    
+   
 }
 
 
@@ -79,6 +77,36 @@ body{
     color: #ffffff;
 }
 
+.dropdown{
+    position: relative;
+    display: inline-block;
+   
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #17224D;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-menu a{
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(67, 140, 235);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 
 h2{
