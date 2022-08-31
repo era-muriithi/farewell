@@ -40,7 +40,6 @@ body{
 
 .navbar{
     width: 100%;
-    height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -83,11 +82,19 @@ body{
    
 }
 
+.links-section .dropdown h5{
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-family: poppins-Bold;
+  padding: 14px 55px;
+  margin: 0;
+}
 .dropdown-menu{
     display: none;
     position: absolute;
     background-color: #17224D;
-    min-width: 160px;
+    min-width: 160px;   
     z-index: 1;
 }
 
@@ -140,6 +147,11 @@ button{
     margin-top: 2em;
     cursor: pointer;
     position: relative;
+
+}
+
+button:hover{
+    background-color: rgb(43, 89, 150);
 
 }
 
